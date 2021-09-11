@@ -1,0 +1,210 @@
+*{
+    margin:0 auto;
+    font-family: 'Lato', sans-serif;
+    
+}
+html{
+    background-color: rgb(236, 238, 241);
+}
+.text{
+    margin: 0;
+}
+
+.logoimg{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new-0b45bf36..png);
+    height: 35px;
+    width: 118px;
+}
+
+
+.signInButton{
+    margin-left: 3%;
+    padding: 1.5% 5%;
+    text-align: center;
+    vertical-align: middle;
+    border:1px solid rgb(99, 97, 97);
+    border-radius: 4px;
+    background-color: #0077C5;
+    display: flex;
+    
+}
+.signInButton p{
+    padding-left:8px ;
+    display: flex;
+    color: white;
+   
+}
+.signInButton img{
+
+height: 20px;
+width: 16px;
+}
+.signIn{
+    margin-top: .5%;
+    margin-left: 80%;
+    display: flex;
+}
+.signIn p{
+margin:0;
+display: flex;
+}
+#signInText{
+    font-size: small;
+    color: black;
+}
+#forgotPassword{
+    font-size: small;
+    color:#0077C5;
+}
+span{
+    display: flex;
+}
+
+.signUpForm{
+    border-top:  1px solid rgb(110, 110, 110);
+    border-left:  1px solid rgb(110, 110, 110);
+    border-right:  1px solid rgb(110, 110, 110);
+    padding: 2%;
+    text-align: center;
+    background-color: white;
+    width: 15%;
+}
+.signUpForm input{
+text-align: left;
+width: 100%;
+}
+.formHeader{
+ text-align: center;
+ margin-bottom: 8%;
+}
+.formHeader h1{
+    margin-bottom: 8%;
+    color: black;
+    font-size: 24px;
+}
+.formHeader p{
+    font-size: 14px;
+}
+.emailSU{
+    text-align: left;
+    width: 100%;
+}
+.emailSU input{
+    margin-top: 6%;
+    margin-bottom: 12%;
+}
+.emailSU label{
+font-size: 16px;
+ text-align: left;
+
+}
+.passwordSU{
+
+    width: 100%;
+}
+.passwordSU label{
+
+    font-size: 16px;
+    text-align: left;
+    display: flex;
+}
+.passwordSU input{
+    margin-top: 6%;
+    margin-bottom: 12%;
+}
+.phoneSU{
+    
+    width: 100%;
+}
+.phoneSU label{
+    font-size: 16px;
+    text-align: left;
+    margin: 0;
+    display: flex;
+}
+.phoneSU input{
+    margin-top: 6%;
+    margin-bottom: 12%;
+}
+.phoneSU p{
+    font-size: 16px;
+    display: flex;
+    margin: 0;
+}
+.phoneFormating{
+    display: flex;
+    margin: 0;
+}
+.signUpForm button{
+    display: flex;
+    align-content: center;
+}
+span{
+    width: 17%;
+    display: flex;
+    margin: 0 auto;
+}
+ul{
+    padding: 0;
+    margin-top: 1%;
+    margin-bottom: 4%;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+li{
+
+    display: flex;
+}
+#middleElement{
+    margin-left: 6%;
+    margin-right: 6%;
+}
+span img{
+    text-align: center;
+    margin: 0;
+    width:23px;
+    height: 23px;
+}
+span p{
+    text-align:center;
+    margin: 0;
+}
+button{
+border-radius: 3px;
+padding: 4% 28%;
+color:white;
+background-color: #0077C5;
+border: none;
+}
+button h1{
+    white-space: nowrap;
+    padding-left: 8px;
+    font-size: 1.125em;
+}
+.bottomCaption{
+font-size: 12px;
+}
+.capcha{
+    border-bottom:  1px solid rgb(110, 110, 110);
+    border-left:  1px solid rgb(110, 110, 110);
+    border-right:  1px solid rgb(110, 110, 110);
+    padding: 1% 2%;
+    width: 15%;
+    background-color: rgb(236, 238, 241);
+    font-size: 10px;
+    text-align: center;
+}
+.footer{
+    font-size: 12px;
+    text-align: center;
+}
+.footer p {
+    max-width: 30%;
+}
+
+#learnMoreOPT{
+    color:#0077C5;
+}
